@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(55deg, #94b4a4 0%, #d2f5e3 51%, #fff8cd 85%);
+}
+
+.profile-wrapper {
+    text-align: center;
+}
+
+
+
+.edwin{
+    height: 180px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.social-links {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul,li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.social{
+    width: 35px;
+    height: 35px;
+    transition: transform .2s;
+}
+
+.me-icons{
+    width: 35px;
+    height: 35px;
+
+}
+
+
+.social:hover{
+    transform: scale(1.5);
+}
+
+.social-share{
+    width: 20px;
+    height: 20px;
+}
+
+.web-icons {
+    width: 18px;
+    height: 18px;
+
+}
