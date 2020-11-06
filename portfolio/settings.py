@@ -26,7 +26,7 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'u(b%n&!@insd&9hg+kwt3(r=)@tc#lxy)2u@kn*@!^*il8i8mn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['edwintom-portfolio.herokuapp.com','127.0.0.1:8000']
 
